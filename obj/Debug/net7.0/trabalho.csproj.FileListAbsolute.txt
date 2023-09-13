@@ -1,0 +1,15 @@
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\bin\Debug\net7.0\trabalho.exe
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\bin\Debug\net7.0\trabalho.deps.json
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\bin\Debug\net7.0\trabalho.runtimeconfig.json
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\bin\Debug\net7.0\trabalho.dll
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\bin\Debug\net7.0\trabalho.pdb
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.csproj.AssemblyReference.cache
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.AssemblyInfoInputs.cache
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.AssemblyInfo.cs
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.csproj.CoreCompileInputs.cache
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.dll
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\refint\trabalho.dll
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.pdb
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.genruntimeconfig.cache
+C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\ref\trabalho.dll
