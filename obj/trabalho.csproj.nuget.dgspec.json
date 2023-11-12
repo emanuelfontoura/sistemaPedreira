@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ospro\\OneDrive\\Área de Trabalho\\trabalho\\trabalho.csproj": {}
+    "D:\\Documentos\\Programação 2022\\sistemaPedreira\\trabalho.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ospro\\OneDrive\\Área de Trabalho\\trabalho\\trabalho.csproj": {
+    "D:\\Documentos\\Programação 2022\\sistemaPedreira\\trabalho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ospro\\OneDrive\\Área de Trabalho\\trabalho\\trabalho.csproj",
+        "projectUniqueName": "D:\\Documentos\\Programação 2022\\sistemaPedreira\\trabalho.csproj",
         "projectName": "trabalho",
-        "projectPath": "C:\\Users\\ospro\\OneDrive\\Área de Trabalho\\trabalho\\trabalho.csproj",
+        "projectPath": "D:\\Documentos\\Programação 2022\\sistemaPedreira\\trabalho.csproj",
         "packagesPath": "C:\\Users\\ospro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ospro\\OneDrive\\Área de Trabalho\\trabalho\\obj\\",
+        "outputPath": "D:\\Documentos\\Programação 2022\\sistemaPedreira\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ospro\\AppData\\Roaming\\NuGet\\NuGet.Config",
