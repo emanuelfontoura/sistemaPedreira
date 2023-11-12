@@ -7,16 +7,26 @@ namespace Pedreira
         static void Main(string[] args)
         {
             Pedra[] blocos = new Pedra[10];
-            bool resposta = true;
             string opcao = null, desc, tipoMaterial, origem, origemPesquisar;
             int id, numBloco, indice = 0, idPesquisar;
             double medidas, valorCompra, valorVenda;
+            string nomeArquivo = "blocos.txt";
+            string caminhoAreaDeTrabalho = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string caminhoCompleto = Path.Combine(caminhoAreaDeTrabalho, nomeArquivo);
 
-            while (!(Convert.ToDouble(opcao)==5))
+            if(!File.Exists(caminhoCompleto)){
+                try{
+                    File.Create(caminhoCompleto);
+                }catch (Exception ex){
+                    Console.WriteLine("Ocorreu um erro ao tentar criar o arquivo para salvar os blocos. Tente novamente!  " + ex.Message);
+                }
+            }
+
+            while (!(Convert.ToDouble(opcao)==6))
             {
                 do
                 {
-                    Console.WriteLine("[1] - Cadastrar bloco\n[2] - Listar blocos\n[3] - Buscar bloco por ID\n[4] - Listar blocos por pedreira\n[5] - Sair");
+                    Console.WriteLine("[1] - Cadastrar bloco\n[2] - Listar blocos\n[3] - Buscar bloco por ID\n[4] - Listar blocos por pedreira\n[5] - Arquivo Txt\n[6] - Sair");
                     opcao = Console.ReadLine();
                 }while (!isNumberInteger(opcao));
 
@@ -40,6 +50,16 @@ namespace Pedreira
                         origem = Console.ReadLine();
                         Pedra produto = new Pedra(id, numBloco, medidas, desc, tipoMaterial, valorCompra, valorVenda, origem);
                         blocos[indice] = produto;
+                        try
+                        {
+                            StreamWriter sw = File.AppendText(caminhoCompleto);
+                            sw.WriteLine($"{indice} - {id}, {numBloco}, {medidas}, {desc}, {tipoMaterial}, {valorCompra}, {valorVenda}, {origem}");
+                            sw.Close();
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Erro ao tentar escrever no arquivo de texto: " + ex.Message);
+                        }
                         indice++;
                         break;
 
@@ -73,12 +93,21 @@ namespace Pedreira
                             }
                         }
                         break;
+                    case 5:
+                        try{
+                            StreamReader sr = new StreamReader(caminhoCompleto);
+                            Console.WriteLine(sr.ReadToEnd());
+                            sr.Close();
+                        }catch (Exception ex){
+                            Console.WriteLine("Erro ao tentar ler o arquivo de texto: " + ex.Message);
+                        }
+                        break;
                 }
            
             }
         }
 
-        static bool isNumberInteger(string num)
+        static bool isNumberInteger(string num) // FUNÇÃO QUE VERIFICA SE UM NÚMERO É INTEIRO OU NÃO
         {
             if (double.TryParse(num, out double numero))
             {
@@ -97,7 +126,7 @@ namespace Pedreira
             }
         }
 
-        static void verificarVazio(Pedra bloco)
+        static void verificarVazio(Pedra bloco) // FUNÇÃO QUE VERIFICA SE UMA POSIÇÃO DA ARRAY TEM OU NÃO OU ELEMENTO DO TIPO "Pedra"
         {
             if(bloco != null)
             {
@@ -109,7 +138,7 @@ namespace Pedreira
             }
         }
 
-        static void mostrarBloco(Pedra bloco)
+        static void mostrarBloco(Pedra bloco) // FUNÇÃO QUE MOSTRA O BLOCO NO CONSOLE
         {
             Console.WriteLine("ID: " + bloco.id);
             Console.WriteLine("Número do bloco: " + bloco.numBloco);
@@ -121,7 +150,7 @@ namespace Pedreira
             Console.WriteLine("Pedreira de origem: " + bloco.origem);
         }
 
-        public class Pedra
+        public class Pedra // CLASSE DA PEDRA 
         {
             public int id { get; set; }
             public int numBloco { get; set; }
@@ -132,7 +161,7 @@ namespace Pedreira
             public double valorVenda { get; set; }
             public string origem { get; set; }
 
-            public Pedra(
+            public Pedra( // MÉTODO CONSTRUTOR DA CLASSE "Pedra"
             int id, 
             int numBloco, 
             double medidas, 

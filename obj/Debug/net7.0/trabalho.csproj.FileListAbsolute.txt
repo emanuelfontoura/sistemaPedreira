@@ -13,3 +13,18 @@ C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\refint\traba
 C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.pdb
 C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\trabalho.genruntimeconfig.cache
 C:\Users\ospro\OneDrive\Área de Trabalho\trabalho\obj\Debug\net7.0\ref\trabalho.dll
+D:\Documentos\Programação 2022\sistemaPedreira\bin\Debug\net7.0\trabalho.exe
+D:\Documentos\Programação 2022\sistemaPedreira\bin\Debug\net7.0\trabalho.deps.json
+D:\Documentos\Programação 2022\sistemaPedreira\bin\Debug\net7.0\trabalho.runtimeconfig.json
+D:\Documentos\Programação 2022\sistemaPedreira\bin\Debug\net7.0\trabalho.dll
+D:\Documentos\Programação 2022\sistemaPedreira\bin\Debug\net7.0\trabalho.pdb
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.csproj.AssemblyReference.cache
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.AssemblyInfoInputs.cache
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.AssemblyInfo.cs
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.csproj.CoreCompileInputs.cache
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.dll
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\refint\trabalho.dll
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.pdb
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\trabalho.genruntimeconfig.cache
+D:\Documentos\Programação 2022\sistemaPedreira\obj\Debug\net7.0\ref\trabalho.dll
