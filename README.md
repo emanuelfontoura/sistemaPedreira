@@ -30,4 +30,4 @@
 </ul>
 <h2>10. Protótio</h2>
 <p>Esta é a interface do sistema.</p>
-![Screenshot_1](https://github.com/emanuelfontoura/sistemaPedreira/assets/118002099/7f106e4d-ba35-4ccd-ba39-09907507a739)
+<p>![Screenshot_1](https://github.com/emanuelfontoura/sistemaPedreira/assets/118002099/7f106e4d-ba35-4ccd-ba39-09907507a739</p>
